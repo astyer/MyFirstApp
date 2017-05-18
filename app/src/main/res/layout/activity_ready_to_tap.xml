@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.as489.myfirstapp.DisplayMessageActivity">
+    tools:context="com.example.as489.myfirstapp.ReadyToTap">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="107dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        android:textAlignment="center"
-        android:textSize="18sp"
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="446dp"
+        android:layout_height="659dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorAccent"
+        tools:layout_editor_absoluteY="-260dp"
+        tools:layout_editor_absoluteX="-153dp" />
 </android.support.constraint.ConstraintLayout>
